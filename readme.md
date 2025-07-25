@@ -13,6 +13,7 @@ In this course, we build a console application for task management.
 5. How to use **Maven** to manage and install third-party dependencies. 🔽
 ---
 ## Brief Description of the MVC Architectural Pattern 📖
+
 MVC stands for **Model - View - Controller**. It is an **architectural pattern** that helps separate code 
 into different components, aiming to follow the **SRP (Single Responsibility Principle)**.
 ---
