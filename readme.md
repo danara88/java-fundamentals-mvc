@@ -1,11 +1,14 @@
 # Java Devtalles Fudamentals MVC 🔥
 Este repositorio forma parte del curso: [Java: Explore el lenguaje desde cero](https://www.udemy.com/course/devtalles-java/?couponCode=MT220725G1).
+En este curso se realizó una aplicación de consola para el manejo de tareas:
+![img_1.png](img_1.png)
 
 ---
 ## Temas vistos  📚
 1. ¿Qué es el **patrón de arquitectura MVC**?
 2. ¿Cómo **organizar archivos** en Java usando el patrón MVC?
-3. Utilización de la librería Gson para la **persistencia de datos** en archivos JSON.
+3. Utilización de la librería **Gson** para la **persistencia de datos** en archivos JSON.
+4. Control de excepciones eficiente usando _Checked_ y _Unchecked Exceptions_. 🔻
 ---
 
 ## Descripción breve del patrón de arquitectura MVC 📖

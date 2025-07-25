@@ -52,13 +52,19 @@ public class Task {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Task task = (Task) obj;
-        return Objects.equals(id, task.getId()) &&
-                Objects.equals(title, task.title) &&
-                Objects.equals(description, task.description);
+
+        // Cuando tengo 2 objetos Task con mismo ID, los considero como iguales.
+        return Objects.equals(id, task.getId());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, title, description);
+        return Objects.hash(id);
     }
+
+    @Override
+    public String toString() {
+        return title + " - " + description + " - " + isCompleted;
+    }
+
 }
